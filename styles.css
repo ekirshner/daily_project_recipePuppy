@@ -1,0 +1,60 @@
+section {
+    border-top: 5px dotted violet;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color: #EEB6B7;
+}
+
+div {
+    border: 1px solid grey; 
+    width: 18%;
+    font-size: 12px;
+    padding: 1%;
+    text-align: center;
+    background-color: white;
+    margin: 2%;
+    font-family: sans-serif;
+    color: #4ABDAC; ;
+}
+
+h1 {
+    font-size: 12px;
+   
+}
+
+#searchBox {
+    width: 50%;
+    height: 20px;
+    padding-bottom: 0;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+button:focus {
+    outline:0;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+header {
+    background-color: #99CED4;
+    height: 50px;
+}
+
+button {
+    position: relative;
+    top: 12px;
+    margin-left: 2%;
+    border-radius: 5px;
+    background-color: hotpink;
+    color: white;
+    font-size: 15px;
+}
+
+#puppy{
+    width: 75px;
+}
